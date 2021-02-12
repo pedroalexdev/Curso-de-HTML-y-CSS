@@ -11,11 +11,11 @@
     <form action="">
         <label for="nombre">
             <span>¿Cuál es tu nombre?<br/></span>
-            <input type="text" id="nombre" autocomplete="name">
+            <input type="text" id="nombre" autocomplete="name" required>
         </label>
         <label for="edad">
             <span><br/>¿Cuál es tu edad?<br/></span>
-            <input type="number" id="edad">
+            <input type="number" id="edad" required>
         </label>
         <label for="tiempo">
             <span><br/>¿En qué horario estudias?<br/></span>
@@ -26,15 +26,15 @@
         </label>
         <label for="correo">
             <span><br/>¿Cuál es tu correo?<br/></span>
-            <input type="email" id="correo">
+            <input type="email" id="correo" autocomplete="email" required>
         </label>
         <label for="pais">
             <span><br/>¿Cuál es tu País?<br/></span>
-            <input type="text" id="pais">
+            <input type="text" id="pais" autocomplete="country" required>
         </label>
         <label for="postal">
             <span><br/>¿Cuál es tu código postal?<br/></span>
-            <input type="text" id="postal">
+            <input type="text" id="postal" autocomplete="postal-code" required>
         </label>
         <input type="submit">
     </form>

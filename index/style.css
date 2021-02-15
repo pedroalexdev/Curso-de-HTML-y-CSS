@@ -13,11 +13,21 @@ h1 {
 .frutas {
     font-weight: 100;
     color: #333;
-    border-style:dashed;
+    border-style:dashed; 
     border-color: rgb(22, 34, 201);
     border-width: 2px;
     font-style: inherit;
     font-size: 20px;
+   
+}
+
+.frutas-item {
+  /*  display: inline-block; */
+}
+
+.frutas-item a {
+    text-decoration: none;
+    color: #333;
 }
 #drinks {
     stroke: coral;
@@ -32,7 +42,7 @@ h1 {
 
 }
 .carnes {
-    border-style:dashed;
+     border-style:dashed;
     font-family: cursive;
-    font-style: inherit;
+    font-style: inherit; 
 }

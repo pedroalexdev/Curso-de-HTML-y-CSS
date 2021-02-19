@@ -19,6 +19,9 @@
     margin-top: 3px;
     background-color: none;
 }
+.list span {
+    font-size: 25px;
+}
 #main-nav {
     background-color: chartreuse;
 }
@@ -50,12 +53,9 @@
 #footer {
     background-color: chocolate;
     text-align: center;
-}
-
-#footer p {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #footer ol {
     text-align: center;
     display: inline-block

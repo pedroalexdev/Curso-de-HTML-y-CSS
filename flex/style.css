@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+   flex-wrap: wrap;
+}
+ .box {
+     flex-basis: 10rem;
+     height: 10rem;
+     flex-grow: 1;
+ }
+
+ .box1 {
+     background-color: aqua;
+ }
+
+ .box2 {
+     background-color: rgba(0, 4, 255, 0.986);
+ }
+
+ .box3 {
+     background-color: chartreuse;
+ }
+
+ .box4 {
+     background-color: chocolate;
+ }
+
+ .box5 {
+     background-color: darkgoldenrod;
+ }
+
+ .box6 {
+    background-color: gold;
+ }

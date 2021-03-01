@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: lawngreen;
+
+}
+main{
+    background-color: lightblue;
+}
+.list {
+      background-color: orangered;
+    
+}
+.list div{
+    min-width: 10px;
+    min-height: 20px;
+}
+footer{
+    background-color: rgb(67, 183, 221);
+}
